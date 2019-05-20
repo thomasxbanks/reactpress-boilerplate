@@ -45,7 +45,7 @@ class RoboFile extends \Robo\Tasks
       ->taskExec("wp core install") // Runs the "Famous 5-minute Install" in a few seconds using the variables given in wp-cli.yml
       ->run();
       
-      $this->_remove('backend/wp-config-sample.php')->run(); // Removes example config
+      $this->_remove('backend/wp-config-sample.php'); // Removes example config
       
       $this->prepareWordpress(); // Sets the WordPress installation up
 
