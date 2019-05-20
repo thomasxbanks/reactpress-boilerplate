@@ -1,0 +1,17 @@
+{
+  "name": "lxlabs/reactpress",
+  "type": "project",
+  "license": "MIT",
+  "description": "Headless WordPress backend with a React frontend",
+  "homepage": "https://gitlab.havaslynx.com/lxlabs",
+  "authors": [{
+    "name": "Thomas Banks",
+    "email": "thomas.banks@havaslynx.com",
+    "homepage": "https://havaslynx.com"
+  }],
+  "require": {
+    "php": ">=5.4",
+    "consolidation/robo": "^1.0.0",
+    "wp-cli/wp-cli-bundle": "*"
+  }
+}

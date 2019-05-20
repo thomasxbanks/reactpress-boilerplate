@@ -1,0 +1,17 @@
+path: backend
+config create:
+    dbhost: localhost
+    dbname: lxl_reactpress
+    dbuser: root
+    dbpass: 
+    extra-php: |
+        define( 'WP_DEBUG', true );
+        define( 'WP_POST_REVISIONS', 50 );
+core install:
+    url: backend.bedrock.txb
+    title: Lxl ReactPress
+    admin_user: thomas.banks
+    admin_email: thomas.banks@havas.com
+color: true
+disabled_commands:
+  - db drop
